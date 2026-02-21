@@ -1,0 +1,11 @@
+# ofoundation.xyz - root domain placeholder
+# Update this config when you deploy a project to the root domain
+server {
+    listen 80;
+    server_name ofoundation.xyz www.ofoundation.xyz;
+
+    location / {
+        return 200 'ofoundation.xyz - coming soon';
+        add_header Content-Type text/plain;
+    }
+}
